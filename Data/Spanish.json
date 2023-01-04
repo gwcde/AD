@@ -1,0 +1,41 @@
+{
+ "labels": {
+  "MCI": -1,
+  "Control": 0,
+  "ProbableAD": 1
+ },
+ "meta_data": [
+  {
+   "path": "madrs-smpl1.wav",
+   "label": "Control"
+  },
+  {
+   "path": "madrs-smpl2.wav",
+   "label": "Control"
+  },
+  {
+   "path": "madrs-smpl3.wav",
+   "label": "Control"
+  },
+  {
+   "path": "madrs-smpl4.wav",
+   "label": "Control"
+  },
+  {
+   "path": "madrs-smpl5.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "madrs-smpl6.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "madrs-smpl7.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "madrs-smpl8.wav",
+   "label": "ProbableAD"
+  }
+ ]
+}

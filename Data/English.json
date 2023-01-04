@@ -1,0 +1,957 @@
+{
+ "labels": {
+  "MCI": -1,
+  "Control": 0,
+  "ProbableAD": 1
+ },
+ "meta_data": [
+  {
+   "path": "adrso002.wav",
+   "label": "Control"
+  },
+  {
+   "path": "adrso003.wav",
+   "label": "Control"
+  },
+  {
+   "path": "adrso004.wav",
+   "label": "Control"
+  },
+  {
+   "path": "adrso005.wav",
+   "label": "Control"
+  },
+  {
+   "path": "adrso006.wav",
+   "label": "Control"
+  },
+  {
+   "path": "adrso007.wav",
+   "label": "Control"
+  },
+  {
+   "path": "adrso008.wav",
+   "label": "Control"
+  },
+  {
+   "path": "adrso009.wav",
+   "label": "Control"
+  },
+  {
+   "path": "adrso010.wav",
+   "label": "Control"
+  },
+  {
+   "path": "adrso011.wav",
+   "label": "Control"
+  },
+  {
+   "path": "adrso012.wav",
+   "label": "Control"
+  },
+  {
+   "path": "adrso013.wav",
+   "label": "Control"
+  },
+  {
+   "path": "adrso014.wav",
+   "label": "Control"
+  },
+  {
+   "path": "adrso015.wav",
+   "label": "Control"
+  },
+  {
+   "path": "adrso016.wav",
+   "label": "Control"
+  },
+  {
+   "path": "adrso017.wav",
+   "label": "Control"
+  },
+  {
+   "path": "adrso018.wav",
+   "label": "Control"
+  },
+  {
+   "path": "adrso019.wav",
+   "label": "Control"
+  },
+  {
+   "path": "adrso020.wav",
+   "label": "Control"
+  },
+  {
+   "path": "adrso021.wav",
+   "label": "Control"
+  },
+  {
+   "path": "adrso022.wav",
+   "label": "Control"
+  },
+  {
+   "path": "adrso023.wav",
+   "label": "Control"
+  },
+  {
+   "path": "adrso024.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "adrso025.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "adrso027.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "adrso028.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "adrso029.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "adrso031.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "adrso032.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "adrso033.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "adrso035.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "adrso036.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "adrso037.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "adrso038.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "adrso039.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "adrso041.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "adrso042.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "adrso043.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "adrso044.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "adrso045.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "adrso046.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "adrso047.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "adrso049.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "adrso052.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "adrso053.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "adrso054.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "adrso055.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "adrso056.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "adrso059.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "adrso060.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "adrso062.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "adrso063.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "adrso064.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "adrso065.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "adrso066.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "adrso068.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "adrso070.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "adrso071.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "adrso072.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "adrso074.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "adrso075.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "adrso077.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "adrso078.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "adrso083.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "adrso088.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "adrso089.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "adrso090.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "adrso092.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "adrso093.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "adrso098.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "adrso099.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "adrso106.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "adrso108.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "adrso109.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "adrso110.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "adrso112.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "adrso113.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "adrso116.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "adrso117.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "adrso118.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "adrso121.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "adrso122.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "adrso123.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "adrso124.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "adrso125.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "adrso126.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "adrso128.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "adrso130.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "adrso132.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "adrso134.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "adrso135.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "adrso138.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "adrso140.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "adrso141.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "adrso142.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "adrso144.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "adrso148.wav",
+   "label": "Control"
+  },
+  {
+   "path": "adrso149.wav",
+   "label": "Control"
+  },
+  {
+   "path": "adrso150.wav",
+   "label": "Control"
+  },
+  {
+   "path": "adrso151.wav",
+   "label": "Control"
+  },
+  {
+   "path": "adrso152.wav",
+   "label": "Control"
+  },
+  {
+   "path": "adrso153.wav",
+   "label": "Control"
+  },
+  {
+   "path": "adrso154.wav",
+   "label": "Control"
+  },
+  {
+   "path": "adrso155.wav",
+   "label": "Control"
+  },
+  {
+   "path": "adrso156.wav",
+   "label": "Control"
+  },
+  {
+   "path": "adrso157.wav",
+   "label": "Control"
+  },
+  {
+   "path": "adrso158.wav",
+   "label": "Control"
+  },
+  {
+   "path": "adrso159.wav",
+   "label": "Control"
+  },
+  {
+   "path": "adrso160.wav",
+   "label": "Control"
+  },
+  {
+   "path": "adrso161.wav",
+   "label": "Control"
+  },
+  {
+   "path": "adrso162.wav",
+   "label": "Control"
+  },
+  {
+   "path": "adrso164.wav",
+   "label": "Control"
+  },
+  {
+   "path": "adrso165.wav",
+   "label": "Control"
+  },
+  {
+   "path": "adrso166.wav",
+   "label": "Control"
+  },
+  {
+   "path": "adrso167.wav",
+   "label": "Control"
+  },
+  {
+   "path": "adrso168.wav",
+   "label": "Control"
+  },
+  {
+   "path": "adrso169.wav",
+   "label": "Control"
+  },
+  {
+   "path": "adrso170.wav",
+   "label": "Control"
+  },
+  {
+   "path": "adrso171.wav",
+   "label": "Control"
+  },
+  {
+   "path": "adrso172.wav",
+   "label": "Control"
+  },
+  {
+   "path": "adrso173.wav",
+   "label": "Control"
+  },
+  {
+   "path": "adrso177.wav",
+   "label": "Control"
+  },
+  {
+   "path": "adrso178.wav",
+   "label": "Control"
+  },
+  {
+   "path": "adrso179.wav",
+   "label": "Control"
+  },
+  {
+   "path": "adrso180.wav",
+   "label": "Control"
+  },
+  {
+   "path": "adrso181.wav",
+   "label": "Control"
+  },
+  {
+   "path": "adrso182.wav",
+   "label": "Control"
+  },
+  {
+   "path": "adrso183.wav",
+   "label": "Control"
+  },
+  {
+   "path": "adrso184.wav",
+   "label": "Control"
+  },
+  {
+   "path": "adrso185.wav",
+   "label": "Control"
+  },
+  {
+   "path": "adrso186.wav",
+   "label": "Control"
+  },
+  {
+   "path": "adrso187.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "adrso188.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "adrso189.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "adrso190.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "adrso192.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "adrso194.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "adrso197.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "adrso198.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "adrso199.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "adrso200.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "adrso202.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "adrso205.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "adrso206.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "adrso209.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "adrso210.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "adrso211.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "adrso212.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "adrso214.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "adrso215.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "adrso216.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "adrso217.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "adrso218.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "adrso219.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "adrso220.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "adrso222.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "adrso223.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "adrso224.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "adrso226.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "adrso228.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "adrso229.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "adrso231.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "adrso232.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "adrso233.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "adrso234.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "adrso235.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "adrso236.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "adrso237.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "adrso243.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "adrso244.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "adrso245.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "adrso246.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "adrso247.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "adrso248.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "adrso249.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "adrso250.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "adrso251.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "adrso253.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "adrso254.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "adrso255.wav",
+   "label": "Control"
+  },
+  {
+   "path": "adrso256.wav",
+   "label": "Control"
+  },
+  {
+   "path": "adrso257.wav",
+   "label": "Control"
+  },
+  {
+   "path": "adrso258.wav",
+   "label": "Control"
+  },
+  {
+   "path": "adrso259.wav",
+   "label": "Control"
+  },
+  {
+   "path": "adrso260.wav",
+   "label": "Control"
+  },
+  {
+   "path": "adrso261.wav",
+   "label": "Control"
+  },
+  {
+   "path": "adrso262.wav",
+   "label": "Control"
+  },
+  {
+   "path": "adrso263.wav",
+   "label": "Control"
+  },
+  {
+   "path": "adrso264.wav",
+   "label": "Control"
+  },
+  {
+   "path": "adrso265.wav",
+   "label": "Control"
+  },
+  {
+   "path": "adrso266.wav",
+   "label": "Control"
+  },
+  {
+   "path": "adrso267.wav",
+   "label": "Control"
+  },
+  {
+   "path": "adrso268.wav",
+   "label": "Control"
+  },
+  {
+   "path": "adrso269.wav",
+   "label": "Control"
+  },
+  {
+   "path": "adrso270.wav",
+   "label": "Control"
+  },
+  {
+   "path": "adrso272.wav",
+   "label": "Control"
+  },
+  {
+   "path": "adrso273.wav",
+   "label": "Control"
+  },
+  {
+   "path": "adrso274.wav",
+   "label": "Control"
+  },
+  {
+   "path": "adrso275.wav",
+   "label": "Control"
+  },
+  {
+   "path": "adrso276.wav",
+   "label": "Control"
+  },
+  {
+   "path": "adrso277.wav",
+   "label": "Control"
+  },
+  {
+   "path": "adrso278.wav",
+   "label": "Control"
+  },
+  {
+   "path": "adrso279.wav",
+   "label": "Control"
+  },
+  {
+   "path": "adrso280.wav",
+   "label": "Control"
+  },
+  {
+   "path": "adrso281.wav",
+   "label": "Control"
+  },
+  {
+   "path": "adrso283.wav",
+   "label": "Control"
+  },
+  {
+   "path": "adrso284.wav",
+   "label": "Control"
+  },
+  {
+   "path": "adrso285.wav",
+   "label": "Control"
+  },
+  {
+   "path": "adrso286.wav",
+   "label": "Control"
+  },
+  {
+   "path": "adrso287.wav",
+   "label": "Control"
+  },
+  {
+   "path": "adrso288.wav",
+   "label": "Control"
+  },
+  {
+   "path": "adrso289.wav",
+   "label": "Control"
+  },
+  {
+   "path": "adrso290.wav",
+   "label": "Control"
+  },
+  {
+   "path": "adrso291.wav",
+   "label": "Control"
+  },
+  {
+   "path": "adrso292.wav",
+   "label": "Control"
+  },
+  {
+   "path": "adrso293.wav",
+   "label": "Control"
+  },
+  {
+   "path": "adrso294.wav",
+   "label": "Control"
+  },
+  {
+   "path": "adrso295.wav",
+   "label": "Control"
+  },
+  {
+   "path": "adrso296.wav",
+   "label": "Control"
+  },
+  {
+   "path": "adrso297.wav",
+   "label": "Control"
+  },
+  {
+   "path": "adrso298.wav",
+   "label": "Control"
+  },
+  {
+   "path": "adrso299.wav",
+   "label": "Control"
+  },
+  {
+   "path": "adrso300.wav",
+   "label": "Control"
+  },
+  {
+   "path": "adrso301.wav",
+   "label": "Control"
+  },
+  {
+   "path": "adrso302.wav",
+   "label": "Control"
+  },
+  {
+   "path": "adrso303.wav",
+   "label": "Control"
+  },
+  {
+   "path": "adrso304.wav",
+   "label": "Control"
+  },
+  {
+   "path": "adrso307.wav",
+   "label": "Control"
+  },
+  {
+   "path": "adrso308.wav",
+   "label": "Control"
+  },
+  {
+   "path": "adrso309.wav",
+   "label": "Control"
+  },
+  {
+   "path": "adrso310.wav",
+   "label": "Control"
+  },
+  {
+   "path": "adrso312.wav",
+   "label": "Control"
+  },
+  {
+   "path": "adrso313.wav",
+   "label": "Control"
+  },
+  {
+   "path": "adrso314.wav",
+   "label": "Control"
+  },
+  {
+   "path": "adrso315.wav",
+   "label": "Control"
+  },
+  {
+   "path": "adrso316.wav",
+   "label": "Control"
+  },
+  {
+   "path": "adrso317.wav",
+   "label": "Control"
+  }
+ ]
+}
