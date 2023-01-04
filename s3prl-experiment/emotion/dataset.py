@@ -47,7 +47,7 @@ class IEMOCAPDataset(Dataset):
         wav = self.resampler(wav).squeeze(0)
         if isinstance(wav, np.ndarray):
             wav = torch.from_numpy(wav)
-        print(wav.shape, type(wav))
+        # print(wav.shape, type(wav))
         return wav
 
     def _load_all(self):
