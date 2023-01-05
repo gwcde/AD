@@ -48,7 +48,7 @@ class MadressDataset(Dataset):
 
 
     def __len__(self):
-        return self.df.shape[1]
+        return self.df.shape[0]
 
 
     def collate_fn(self, samples):
