@@ -1,11 +1,11 @@
 runner:
-  total_steps: 1000
+  total_steps: 30000
   gradient_clipping: 1
   gradient_accumulate_steps: 8
 
-  log_step: 5
-  eval_step: 5
-  save_step: 5
+  log_step: 500
+  eval_step: 1000
+  save_step: 1000
   max_keep: 1
   eval_dataloaders:
     - dev
@@ -24,14 +24,14 @@ optimizer:
 
 downstream_expert:
   datarc:
-    train_root: /home/shaoz/projects/collaborate/spgc/AD/data/train # train & dev
-    test_root: /home/shaoz/projects/collaborate/spgc/AD/data/sample-gr
-    meta_data: ./data #
-    train_path: /home/shaoz/projects/collaborate/spgc/AD/Data/English.json # json
-    test_path: /home/shaoz/projects/collaborate/spgc/AD/Data/greek_sample.json # test
+    train_root: ../data/train # train & dev 训练路径
+    test_root: ../data/sample # test 路径
+    meta_data: ./data # 没发现什么用
+    train_path: ../data/English.json # json路径
+    test_path: ../data/Spanish.json # test路径
     test_fold: fold1
     pre_load: True
-    train_batch_size: 2
+    train_batch_size: 4
     eval_batch_size: 2
     num_workers: 0
     valid_ratio: 0.2
