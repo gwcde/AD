@@ -15,7 +15,7 @@ from torch.utils.data import Dataset
 from torchaudio.transforms import Resample
 
 SAMPLE_RATE = 16000
-MAX_WAV_LENTH = 960000
+MAX_WAV_LENTH = 1120000
 
 class IEMOCAPDataset(Dataset):
     def __init__(self, data_dir, meta_path, pre_load=True):

@@ -15,6 +15,9 @@ from .model import *
 from .dataset import IEMOCAPDataset, collate_fn
 import yaml
 
+import csv
+
+import pandas as pd
 class DownstreamExpert(nn.Module):
     """
     Used to handle downstream-specific operations
@@ -48,6 +51,7 @@ class DownstreamExpert(nn.Module):
         TEST_DATA_ROOT = self.datarc['test_root']
         meta_data = self.datarc["meta_data"]
 
+
         self.fold = self.datarc.get('test_fold') or kwargs.get("downstream_variant")
         if self.fold is None:
             self.fold = "fold1"
@@ -80,7 +84,6 @@ class DownstreamExpert(nn.Module):
         self.objective = nn.CrossEntropyLoss()
         self.expdir = expdir
         self.register_buffer('best_score', torch.zeros(1))
-
 
     def get_downstream_name(self):
         return self.fold.replace('fold', 'emotion')
@@ -139,6 +142,34 @@ class DownstreamExpert(nn.Module):
 
     # interface
     def log_records(self, mode, records, logger, global_step, **kwargs):
+        def get_F1(predict_path, truth_path):
+            with open(predict_path) as prediction_file, open(truth_path) as label_file:
+                predictions = prediction_file.readlines()
+                labels = label_file.readlines()
+            true_positives, true_negatives, false_positives, false_negatives = 0, 0, 0, 0
+            for prediction, label in zip(predictions, labels):
+                prediction = prediction.split()[1]
+                label = label.split()[1]
+                # print(prediction, label)
+                if prediction == "ProbableAD" and label == "ProbableAD":
+                    true_positives += 1
+                elif prediction == "ProbableAD" and label == "Control":
+                    false_positives += 1
+                elif prediction == "Control" and label == "ProbableAD":
+                    false_negatives += 1
+                elif prediction == "Control" and label == "Control":
+                    true_negatives += 1
+            accuracy = (true_positives + true_negatives) / (
+                        true_positives + false_positives + true_negatives + false_negatives)
+            try:
+                precision = true_positives / (true_positives + false_positives)
+            except ZeroDivisionError:
+                precision = 0
+            recall = true_positives / (true_positives + false_negatives)
+            f1 = 2 * precision * recall / (precision + recall)
+
+            return true_positives, true_negatives, false_positives, false_negatives, accuracy, precision, recall, f1
+
         save_names = []
         for key in ["acc", "loss"]:
             values = records[key]
@@ -157,6 +188,15 @@ class DownstreamExpert(nn.Module):
                         f.write(f'New best on {mode} at step {global_step}: {average}\n')
                         save_names.append(f'{mode}-best.ckpt')
 
+                if key == 'loss':
+                    print(f"{mode} loss: {average}")
+                    f.write(f'{mode} loss at step {global_step}: {average}\n')
+                    #if mode == 'dev' and average > self.best_score:
+                        #self.best_score = torch.ones(1) * average
+                        #f.write(f'New best on {mode} at step {global_step}: {average}\n')
+                        #save_names.append(f'{mode}-best.ckpt')
+
+
         if mode in ["dev", "test"]:
             with open(Path(self.expdir) / f"{mode}_{self.fold}_predict.txt", "w") as file:
                 line = [f"{f} {e}\n" for f, e in zip(records["filename"], records["predict"])]
@@ -165,5 +205,15 @@ class DownstreamExpert(nn.Module):
             with open(Path(self.expdir) / f"{mode}_{self.fold}_truth.txt", "w") as file:
                 line = [f"{f} {e}\n" for f, e in zip(records["filename"], records["truth"])]
                 file.writelines(line)
+            if mode == "test":
+                # F1
+                predict_path = Path(self.expdir) / f"{mode}_{self.fold}_predict.txt"
+                truth_path = Path(self.expdir) / f"{mode}_{self.fold}_truth.txt"
+
+                true_positives, true_negatives, false_positives, false_negatives, accuracy, precision, recall, F1 = get_F1(predict_path, truth_path)
+
+                with open(Path(self.expdir) / "log.log", 'a') as f:
+                    f.write(f'true_positives: {true_positives}, true_negatives: {true_negatives}, false_positives: {false_positives}, false_negatives: {false_negatives}\n'
+                            f'accuracy: {accuracy}, precision: {precision}, recall: {recall}, F1: {F1}\n\n')
 
         return save_names
