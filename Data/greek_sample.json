@@ -1,0 +1,40 @@
+{
+ "labels": {
+  "Control": 0,
+  "ProbableAD": 1
+ },
+ "meta_data": [
+  {
+   "path": "greek_sample/madrs002.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "greek_sample/madrs0046.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "greek_sample/madrs097.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "greek_sample/madrs047.wav",
+   "label": "Control"
+  },
+  {
+   "path": "greek_sample/madrs054.wav",
+   "label": "ProbableAD"
+  },
+  {
+   "path": "greek_sample/madrs009.wav",
+   "label": "Control"
+  },
+  {
+   "path": "greek_sample/madrs081.wav",
+   "label": "Control"
+  },
+  {
+   "path": "greek_sample/madrs087.wav",
+   "label": "Control"
+  }
+ ]
+}
