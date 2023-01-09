@@ -1,4 +1,10 @@
+import torch
 import os
+#os.environ["CUDA_DEVICE_ORDER"] = "PCI_BUS_ID"
+#os.environ["CUDA_VISIBLE_DEVICES"] = "0,1"
+os.environ['MASTER_ADDR'] = "172.18.129.162"
+os.environ['MASTER_PORT'] = "65532"
+print(torch.cuda.is_available())
 import yaml
 import glob
 import torch
@@ -12,9 +18,6 @@ from torch.distributed import is_initialized, get_world_size
 
 import s3prl.downstream.example
 print('example module', s3prl.downstream.example)
-import s3prl.downstream.madress
-print('madress module', s3prl.downstream.madress)
-print('\n\n')
 
 from s3prl import hub
 from s3prl.downstream.runner import Runner
@@ -151,7 +154,7 @@ def get_downstream_args():
     if args.override is not None and args.override.lower() != "none":
         override(args.override, args, config)
         os.makedirs(args.expdir, exist_ok=True)
-
+    
     return args, config, backup_files
 
 
@@ -166,10 +169,15 @@ def main():
     args, config, backup_files = get_downstream_args()
     if args.cache_dir is not None:
         torch.hub.set_dir(args.cache_dir)
-
+    print("args.local_rank: ", args.local_rank)
+    exit(0)
     # When torch.distributed.launch is used
     if args.local_rank is not None:
+        print("args.local_rank: ", args.local_rank)
         torch.cuda.set_device(args.local_rank)
+        print("before  torch.distributed.init_process_group")
+        print("args.backend: ", args.backend)
+        exit(0)
         torch.distributed.init_process_group(args.backend)
 
     if args.mode == 'train' and args.past_exp:
@@ -192,7 +200,7 @@ def main():
         huggingface_token = HfApi().login(username=hf_user, password=hf_password)
         HfFolder.save_token(huggingface_token)
         print(f"Logged into Hugging Face Hub with user: {hf_user}")
-
+    
     # Save command
     if is_leader_process():
         with open(os.path.join(args.expdir, f'args_{get_time_tag()}.yaml'), 'w') as file:
