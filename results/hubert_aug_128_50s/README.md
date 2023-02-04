@@ -1,3 +1,3 @@
 upstream: hubert_large    
-duration: 70s    
+duration: 50s    
 data_aug: greek_sample 32 * 4      
