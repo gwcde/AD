@@ -1,0 +1,273 @@
+
+dev at step 0: 1.0
+New best on dev at step 0: 1.0
+dev loss at step 0: 0.16022174060344696
+tp: 2, tn: 2, fp: 0, fn: 0
+accuracy: 1.0, precision: 1.0, recall: 1.0, F1: 1.0
+specificity: 1.0, gmean: 1.0, mcc: 1.0 
+
+test at step 0: 0.5405405163764954
+test loss at step 0: 2.4715404510498047
+tp: 56, tn: 24, fp: 7, fn: 61
+accuracy: 0.5405405405405406, precision: 0.8888888888888888, recall: 0.47863247863247865, F1: 0.6222222222222222
+specificity: 0.7741935483870968, gmean: 0.6087316132794401, mcc: 0.2080730437970909 
+
+dev at step 0: 0.5
+New best on dev at step 0: 0.5
+dev loss at step 0: 1.4640992879867554
+tp: 0, tn: 2, fp: 0, fn: 2
+accuracy: 0.5, precision: 0, recall: 0.0, F1: 0
+specificity: 1.0, gmean: 0.0, mcc: 0 
+
+test at step 0: 0.2567567527294159
+test loss at step 0: 8.13427448272705
+tp: 7, tn: 31, fp: 0, fn: 110
+accuracy: 0.25675675675675674, precision: 1.0, recall: 0.05982905982905983, F1: 0.11290322580645161
+specificity: 1.0, gmean: 0.24459979523511427, mcc: 0.11469048247752751 
+
+dev at step 0: 0.5
+New best on dev at step 0: 0.5
+dev loss at step 0: 1.6304945945739746
+tp: 0, tn: 2, fp: 0, fn: 2
+accuracy: 0.5, precision: 0, recall: 0.0, F1: 0
+specificity: 1.0, gmean: 0.0, mcc: 0 
+
+test at step 0: 0.25
+test loss at step 0: 8.51854133605957
+tp: 9, tn: 28, fp: 3, fn: 108
+accuracy: 0.25, precision: 0.75, recall: 0.07692307692307693, F1: 0.13953488372093026
+specificity: 0.9032258064516129, gmean: 0.26358852059334, mcc: -0.029593657377873693 
+
+dev at step 0: 0.5
+New best on dev at step 0: 0.5
+dev loss at step 0: 1.8406254053115845
+tp: 0, tn: 2, fp: 0, fn: 2
+accuracy: 0.5, precision: 0, recall: 0.0, F1: 0
+specificity: 1.0, gmean: 0.0, mcc: 0 
+
+test at step 0: 0.25
+test loss at step 0: 8.834746360778809
+tp: 9, tn: 28, fp: 3, fn: 108
+accuracy: 0.25, precision: 0.75, recall: 0.07692307692307693, F1: 0.13953488372093026
+specificity: 0.9032258064516129, gmean: 0.26358852059334, mcc: -0.029593657377873693 
+
+dev at step 0: 0.5
+New best on dev at step 0: 0.5
+dev loss at step 0: 1.9290599822998047
+tp: 0, tn: 2, fp: 0, fn: 2
+accuracy: 0.5, precision: 0, recall: 0.0, F1: 0
+specificity: 1.0, gmean: 0.0, mcc: 0 
+
+test at step 0: 0.25
+test loss at step 0: 8.964866638183594
+tp: 9, tn: 28, fp: 3, fn: 108
+accuracy: 0.25, precision: 0.75, recall: 0.07692307692307693, F1: 0.13953488372093026
+specificity: 0.9032258064516129, gmean: 0.26358852059334, mcc: -0.029593657377873693 
+
+dev at step 0: 0.5
+New best on dev at step 0: 0.5
+dev loss at step 0: 2.027190685272217
+tp: 0, tn: 2, fp: 0, fn: 2
+accuracy: 0.5, precision: 0, recall: 0.0, F1: 0
+specificity: 1.0, gmean: 0.0, mcc: 0 
+
+test at step 0: 0.25
+test loss at step 0: 9.106832504272461
+tp: 9, tn: 28, fp: 3, fn: 108
+accuracy: 0.25, precision: 0.75, recall: 0.07692307692307693, F1: 0.13953488372093026
+specificity: 0.9032258064516129, gmean: 0.26358852059334, mcc: -0.029593657377873693 
+
+dev at step 0: 0.5
+New best on dev at step 0: 0.5
+dev loss at step 0: 2.07641339302063
+tp: 0, tn: 2, fp: 0, fn: 2
+accuracy: 0.5, precision: 0, recall: 0.0, F1: 0
+specificity: 1.0, gmean: 0.0, mcc: 0 
+
+test at step 0: 0.25
+test loss at step 0: 9.178404808044434
+tp: 9, tn: 28, fp: 3, fn: 108
+accuracy: 0.25, precision: 0.75, recall: 0.07692307692307693, F1: 0.13953488372093026
+specificity: 0.9032258064516129, gmean: 0.26358852059334, mcc: -0.029593657377873693 
+
+dev at step 0: 0.5
+New best on dev at step 0: 0.5
+dev loss at step 0: 2.1104936599731445
+tp: 0, tn: 2, fp: 0, fn: 2
+accuracy: 0.5, precision: 0, recall: 0.0, F1: 0
+specificity: 1.0, gmean: 0.0, mcc: 0 
+
+test at step 0: 0.25
+test loss at step 0: 9.228766441345215
+tp: 9, tn: 28, fp: 3, fn: 108
+accuracy: 0.25, precision: 0.75, recall: 0.07692307692307693, F1: 0.13953488372093026
+specificity: 0.9032258064516129, gmean: 0.26358852059334, mcc: -0.029593657377873693 
+
+dev at step 0: 0.5
+New best on dev at step 0: 0.5
+dev loss at step 0: 2.15513014793396
+tp: 0, tn: 2, fp: 0, fn: 2
+accuracy: 0.5, precision: 0, recall: 0.0, F1: 0
+specificity: 1.0, gmean: 0.0, mcc: 0 
+
+test at step 0: 0.25
+test loss at step 0: 9.292557716369629
+tp: 9, tn: 28, fp: 3, fn: 108
+accuracy: 0.25, precision: 0.75, recall: 0.07692307692307693, F1: 0.13953488372093026
+specificity: 0.9032258064516129, gmean: 0.26358852059334, mcc: -0.029593657377873693 
+
+dev at step 0: 0.5
+New best on dev at step 0: 0.5
+dev loss at step 0: 2.1846301555633545
+tp: 0, tn: 2, fp: 0, fn: 2
+accuracy: 0.5, precision: 0, recall: 0.0, F1: 0
+specificity: 1.0, gmean: 0.0, mcc: 0 
+
+test at step 0: 0.25
+test loss at step 0: 9.335736274719238
+tp: 9, tn: 28, fp: 3, fn: 108
+accuracy: 0.25, precision: 0.75, recall: 0.07692307692307693, F1: 0.13953488372093026
+specificity: 0.9032258064516129, gmean: 0.26358852059334, mcc: -0.029593657377873693 
+
+dev at step 0: 0.5
+New best on dev at step 0: 0.5
+dev loss at step 0: 2.218205451965332
+tp: 0, tn: 2, fp: 0, fn: 2
+accuracy: 0.5, precision: 0, recall: 0.0, F1: 0
+specificity: 1.0, gmean: 0.0, mcc: 0 
+
+test at step 0: 0.25
+test loss at step 0: 9.383930206298828
+tp: 9, tn: 28, fp: 3, fn: 108
+accuracy: 0.25, precision: 0.75, recall: 0.07692307692307693, F1: 0.13953488372093026
+specificity: 0.9032258064516129, gmean: 0.26358852059334, mcc: -0.029593657377873693 
+
+dev at step 0: 0.5
+New best on dev at step 0: 0.5
+dev loss at step 0: 2.257152795791626
+tp: 0, tn: 2, fp: 0, fn: 2
+accuracy: 0.5, precision: 0, recall: 0.0, F1: 0
+specificity: 1.0, gmean: 0.0, mcc: 0 
+
+test at step 0: 0.25
+test loss at step 0: 9.439563751220703
+tp: 9, tn: 28, fp: 3, fn: 108
+accuracy: 0.25, precision: 0.75, recall: 0.07692307692307693, F1: 0.13953488372093026
+specificity: 0.9032258064516129, gmean: 0.26358852059334, mcc: -0.029593657377873693 
+
+dev at step 0: 0.5
+New best on dev at step 0: 0.5
+dev loss at step 0: 2.2708053588867188
+tp: 0, tn: 2, fp: 0, fn: 2
+accuracy: 0.5, precision: 0, recall: 0.0, F1: 0
+specificity: 1.0, gmean: 0.0, mcc: 0 
+
+test at step 0: 0.25
+test loss at step 0: 9.45914077758789
+tp: 9, tn: 28, fp: 3, fn: 108
+accuracy: 0.25, precision: 0.75, recall: 0.07692307692307693, F1: 0.13953488372093026
+specificity: 0.9032258064516129, gmean: 0.26358852059334, mcc: -0.029593657377873693 
+
+dev at step 0: 0.5
+New best on dev at step 0: 0.5
+dev loss at step 0: 2.3002538681030273
+tp: 0, tn: 2, fp: 0, fn: 2
+accuracy: 0.5, precision: 0, recall: 0.0, F1: 0
+specificity: 1.0, gmean: 0.0, mcc: 0 
+
+test at step 0: 0.25
+test loss at step 0: 9.500862121582031
+tp: 9, tn: 28, fp: 3, fn: 108
+accuracy: 0.25, precision: 0.75, recall: 0.07692307692307693, F1: 0.13953488372093026
+specificity: 0.9032258064516129, gmean: 0.26358852059334, mcc: -0.029593657377873693 
+
+dev at step 0: 0.5
+New best on dev at step 0: 0.5
+dev loss at step 0: 2.3262906074523926
+tp: 0, tn: 2, fp: 0, fn: 2
+accuracy: 0.5, precision: 0, recall: 0.0, F1: 0
+specificity: 1.0, gmean: 0.0, mcc: 0 
+
+test at step 0: 0.25
+test loss at step 0: 9.538186073303223
+tp: 9, tn: 28, fp: 3, fn: 108
+accuracy: 0.25, precision: 0.75, recall: 0.07692307692307693, F1: 0.13953488372093026
+specificity: 0.9032258064516129, gmean: 0.26358852059334, mcc: -0.029593657377873693 
+
+dev at step 0: 0.5
+New best on dev at step 0: 0.5
+dev loss at step 0: 2.3412394523620605
+tp: 0, tn: 2, fp: 0, fn: 2
+accuracy: 0.5, precision: 0, recall: 0.0, F1: 0
+specificity: 1.0, gmean: 0.0, mcc: 0 
+
+test at step 0: 0.25
+test loss at step 0: 9.558991432189941
+tp: 9, tn: 28, fp: 3, fn: 108
+accuracy: 0.25, precision: 0.75, recall: 0.07692307692307693, F1: 0.13953488372093026
+specificity: 0.9032258064516129, gmean: 0.26358852059334, mcc: -0.029593657377873693 
+
+dev at step 0: 0.5
+New best on dev at step 0: 0.5
+dev loss at step 0: 2.378347635269165
+tp: 0, tn: 2, fp: 0, fn: 2
+accuracy: 0.5, precision: 0, recall: 0.0, F1: 0
+specificity: 1.0, gmean: 0.0, mcc: 0 
+
+test at step 0: 0.25
+test loss at step 0: 9.611990928649902
+tp: 9, tn: 28, fp: 3, fn: 108
+accuracy: 0.25, precision: 0.75, recall: 0.07692307692307693, F1: 0.13953488372093026
+specificity: 0.9032258064516129, gmean: 0.26358852059334, mcc: -0.029593657377873693 
+
+dev at step 0: 0.5
+New best on dev at step 0: 0.5
+dev loss at step 0: 2.3842263221740723
+tp: 0, tn: 2, fp: 0, fn: 2
+accuracy: 0.5, precision: 0, recall: 0.0, F1: 0
+specificity: 1.0, gmean: 0.0, mcc: 0 
+
+test at step 0: 0.25
+test loss at step 0: 9.619976043701172
+tp: 9, tn: 28, fp: 3, fn: 108
+accuracy: 0.25, precision: 0.75, recall: 0.07692307692307693, F1: 0.13953488372093026
+specificity: 0.9032258064516129, gmean: 0.26358852059334, mcc: -0.029593657377873693 
+
+dev at step 0: 0.5
+New best on dev at step 0: 0.5
+dev loss at step 0: 2.407092571258545
+tp: 0, tn: 2, fp: 0, fn: 2
+accuracy: 0.5, precision: 0, recall: 0.0, F1: 0
+specificity: 1.0, gmean: 0.0, mcc: 0 
+
+test at step 0: 0.25
+test loss at step 0: 9.652444839477539
+tp: 9, tn: 28, fp: 3, fn: 108
+accuracy: 0.25, precision: 0.75, recall: 0.07692307692307693, F1: 0.13953488372093026
+specificity: 0.9032258064516129, gmean: 0.26358852059334, mcc: -0.029593657377873693 
+
+dev at step 0: 0.5
+New best on dev at step 0: 0.5
+dev loss at step 0: 2.423340320587158
+tp: 0, tn: 2, fp: 0, fn: 2
+accuracy: 0.5, precision: 0, recall: 0.0, F1: 0
+specificity: 1.0, gmean: 0.0, mcc: 0 
+
+test at step 0: 0.25
+test loss at step 0: 9.675215721130371
+tp: 9, tn: 28, fp: 3, fn: 108
+accuracy: 0.25, precision: 0.75, recall: 0.07692307692307693, F1: 0.13953488372093026
+specificity: 0.9032258064516129, gmean: 0.26358852059334, mcc: -0.029593657377873693 
+
+dev at step 0: 0.5
+New best on dev at step 0: 0.5
+dev loss at step 0: 2.4488027095794678
+tp: 0, tn: 2, fp: 0, fn: 2
+accuracy: 0.5, precision: 0, recall: 0.0, F1: 0
+specificity: 1.0, gmean: 0.0, mcc: 0 
+
+test at step 0: 0.25
+test loss at step 0: 9.711590766906738
+tp: 9, tn: 28, fp: 3, fn: 108
+accuracy: 0.25, precision: 0.75, recall: 0.07692307692307693, F1: 0.13953488372093026
+specificity: 0.9032258064516129, gmean: 0.26358852059334, mcc: -0.029593657377873693 
