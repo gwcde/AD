@@ -1,0 +1,53 @@
+runner:
+  total_steps: 1000
+  gradient_clipping: 1
+  gradient_accumulate_steps: 8
+
+  log_step: 5
+  eval_step: 5
+  save_step: 5
+  max_keep: 1
+  eval_dataloaders:
+    - dev
+    - test
+
+optimizer:
+  name: TorchOptim
+  torch_optim_name: Adam
+  lr: 1.0e-4
+
+# comment the whole scheduler config block
+# to disable learning rate scheduling
+# scheduler:
+#   name: linear_schedule_with_warmup
+#   num_warmup_steps: 1400
+
+downstream_expert:
+  datarc:
+    train_root: /home/shaoz/projects/collaborate/spgc/data/spgc-2023/train-16000 # train & dev
+    test_root: /home/shaoz/projects/collaborate/spgc/data/spgc-2023/sample-gr-16000
+    meta_data: ./data #
+    train_path: /home/shaoz/projects/collaborate/spgc/AD/Data/English.json # json
+    test_path: /home/shaoz/projects/collaborate/spgc/AD/Data/greek_sample.json # test
+    test_fold: fold1
+    pre_load: True
+    train_batch_size: 2
+    eval_batch_size: 2
+    num_workers: 0
+    valid_ratio: 0.2
+
+
+  modelrc:
+    projector_dim: 256
+    select: UtteranceLevel
+
+    UtteranceLevel:
+      pooling: MeanPooling
+
+    DeepModel:
+      model_type: CNNSelfAttention
+      hidden_dim: 80
+      kernel_size: 5
+      padding: 2
+      pooling: 5
+      dropout: 0.4
