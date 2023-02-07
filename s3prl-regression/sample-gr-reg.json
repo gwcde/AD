@@ -1,0 +1,36 @@
+{
+ "meta_data": [
+  {
+   "path": "madrs009.wav",
+   "label": 29
+  },
+  {
+   "path": "madrs047.wav",
+   "label": 30
+  },
+  {
+   "path": "madrs046.wav",
+   "label": 20
+  },
+  {
+   "path": "madrs054.wav",
+   "label": 27
+  },
+  {
+   "path": "madrs002.wav",
+   "label": 24
+  },
+  {
+   "path": "madrs081.wav",
+   "label": 29
+  },
+  {
+   "path": "madrs097.wav",
+   "label": 26
+  },
+  {
+   "path": "madrs087.wav",
+   "label": 29
+  }
+ ]
+}

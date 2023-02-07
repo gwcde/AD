@@ -1,0 +1,860 @@
+{
+ "meta_data": [
+  {
+   "path": "adrso288.wav",
+   "label": 30.0
+  },
+  {
+   "path": "adrso121.wav",
+   "label": 17.0
+  },
+  {
+   "path": "adrso071.wav",
+   "label": 23.0
+  },
+  {
+   "path": "adrso263.wav",
+   "label": 28.0
+  },
+  {
+   "path": "adrso243.wav",
+   "label": 20.0
+  },
+  {
+   "path": "adrso300.wav",
+   "label": 28.0
+  },
+  {
+   "path": "adrso070.wav",
+   "label": 19.0
+  },
+  {
+   "path": "adrso223.wav",
+   "label": 17.0
+  },
+  {
+   "path": "adrso215.wav",
+   "label": 14.0
+  },
+  {
+   "path": "adrso285.wav",
+   "label": 30.0
+  },
+  {
+   "path": "adrso060.wav",
+   "label": 15.0
+  },
+  {
+   "path": "adrso052.wav",
+   "label": 12.0
+  },
+  {
+   "path": "adrso043.wav",
+   "label": 22.0
+  },
+  {
+   "path": "adrso184.wav",
+   "label": 30.0
+  },
+  {
+   "path": "adrso257.wav",
+   "label": 30.0
+  },
+  {
+   "path": "adrso183.wav",
+   "label": 30.0
+  },
+  {
+   "path": "adrso192.wav",
+   "label": 3.0
+  },
+  {
+   "path": "adrso116.wav",
+   "label": 12.0
+  },
+  {
+   "path": "adrso151.wav",
+   "label": 28.0
+  },
+  {
+   "path": "adrso025.wav",
+   "label": 11.0
+  },
+  {
+   "path": "adrso235.wav",
+   "label": 23.0
+  },
+  {
+   "path": "adrso218.wav",
+   "label": 27.0
+  },
+  {
+   "path": "adrso083.wav",
+   "label": 24.0
+  },
+  {
+   "path": "adrso099.wav",
+   "label": 30.0
+  },
+  {
+   "path": "adrso062.wav",
+   "label": 19.0
+  },
+  {
+   "path": "adrso130.wav",
+   "label": 17.0
+  },
+  {
+   "path": "adrso264.wav",
+   "label": 29.0
+  },
+  {
+   "path": "adrso224.wav",
+   "label": 17.0
+  },
+  {
+   "path": "adrso166.wav",
+   "label": 30.0
+  },
+  {
+   "path": "adrso262.wav",
+   "label": 29.0
+  },
+  {
+   "path": "adrso108.wav",
+   "label": 19.0
+  },
+  {
+   "path": "adrso159.wav",
+   "label": 29.0
+  },
+  {
+   "path": "adrso109.wav",
+   "label": 20.0
+  },
+  {
+   "path": "adrso155.wav",
+   "label": 30.0
+  },
+  {
+   "path": "adrso041.wav",
+   "label": 5.0
+  },
+  {
+   "path": "adrso316.wav",
+   "label": 30.0
+  },
+  {
+   "path": "adrso312.wav",
+   "label": 29.0
+  },
+  {
+   "path": "adrso144.wav",
+   "label": 13.0
+  },
+  {
+   "path": "adrso268.wav",
+   "label": 30.0
+  },
+  {
+   "path": "adrso134.wav",
+   "label": 8.0
+  },
+  {
+   "path": "adrso045.wav",
+   "label": 13.0
+  },
+  {
+   "path": "adrso232.wav",
+   "label": 20.0
+  },
+  {
+   "path": "adrso092.wav",
+   "label": 12.0
+  },
+  {
+   "path": "adrso038.wav",
+   "label": 24.0
+  },
+  {
+   "path": "adrso077.wav",
+   "label": 19.0
+  },
+  {
+   "path": "adrso190.wav",
+   "label": 20.0
+  },
+  {
+   "path": "adrso106.wav",
+   "label": 17.0
+  },
+  {
+   "path": "adrso273.wav",
+   "label": 30.0
+  },
+  {
+   "path": "adrso279.wav",
+   "label": 29.0
+  },
+  {
+   "path": "adrso169.wav",
+   "label": 30.0
+  },
+  {
+   "path": "adrso158.wav",
+   "label": 30.0
+  },
+  {
+   "path": "adrso075.wav",
+   "label": 18.0
+  },
+  {
+   "path": "adrso250.wav",
+   "label": 15.0
+  },
+  {
+   "path": "adrso118.wav",
+   "label": 16.0
+  },
+  {
+   "path": "adrso055.wav",
+   "label": 17.0
+  },
+  {
+   "path": "adrso291.wav",
+   "label": 28.0
+  },
+  {
+   "path": "adrso287.wav",
+   "label": 24.0
+  },
+  {
+   "path": "adrso301.wav",
+   "label": 30.0
+  },
+  {
+   "path": "adrso161.wav",
+   "label": 29.0
+  },
+  {
+   "path": "adrso186.wav",
+   "label": 26.0
+  },
+  {
+   "path": "adrso200.wav",
+   "label": 19.0
+  },
+  {
+   "path": "adrso212.wav",
+   "label": 28.0
+  },
+  {
+   "path": "adrso090.wav",
+   "label": 25.0
+  },
+  {
+   "path": "adrso253.wav",
+   "label": 15.0
+  },
+  {
+   "path": "adrso128.wav",
+   "label": 20.0
+  },
+  {
+   "path": "adrso280.wav",
+   "label": 29.0
+  },
+  {
+   "path": "adrso299.wav",
+   "label": 26.0
+  },
+  {
+   "path": "adrso035.wav",
+   "label": 24.0
+  },
+  {
+   "path": "adrso266.wav",
+   "label": 30.0
+  },
+  {
+   "path": "adrso222.wav",
+   "label": 16.0
+  },
+  {
+   "path": "adrso270.wav",
+   "label": 30.0
+  },
+  {
+   "path": "adrso259.wav",
+   "label": 30.0
+  },
+  {
+   "path": "adrso037.wav",
+   "label": 10.0
+  },
+  {
+   "path": "adrso179.wav",
+   "label": 29.0
+  },
+  {
+   "path": "adrso245.wav",
+   "label": 10.0
+  },
+  {
+   "path": "adrso182.wav",
+   "label": 29.0
+  },
+  {
+   "path": "adrso272.wav",
+   "label": 30.0
+  },
+  {
+   "path": "adrso313.wav",
+   "label": 28.0
+  },
+  {
+   "path": "adrso150.wav",
+   "label": 29.0
+  },
+  {
+   "path": "adrso167.wav",
+   "label": 27.0
+  },
+  {
+   "path": "adrso278.wav",
+   "label": 28.0
+  },
+  {
+   "path": "adrso068.wav",
+   "label": 20.0
+  },
+  {
+   "path": "adrso124.wav",
+   "label": 10.0
+  },
+  {
+   "path": "adrso065.wav",
+   "label": 25.0
+  },
+  {
+   "path": "adrso042.wav",
+   "label": 25.0
+  },
+  {
+   "path": "adrso154.wav",
+   "label": 30.0
+  },
+  {
+   "path": "adrso110.wav",
+   "label": 14.0
+  },
+  {
+   "path": "adrso153.wav",
+   "label": 30.0
+  },
+  {
+   "path": "adrso210.wav",
+   "label": 24.0
+  },
+  {
+   "path": "adrso093.wav",
+   "label": 13.0
+  },
+  {
+   "path": "adrso303.wav",
+   "label": 29.0
+  },
+  {
+   "path": "adrso216.wav",
+   "label": 24.0
+  },
+  {
+   "path": "adrso292.wav",
+   "label": 28.0
+  },
+  {
+   "path": "adrso296.wav",
+   "label": 30.0
+  },
+  {
+   "path": "adrso295.wav",
+   "label": 30.0
+  },
+  {
+   "path": "adrso172.wav",
+   "label": 30.0
+  },
+  {
+   "path": "adrso234.wav",
+   "label": 22.0
+  },
+  {
+   "path": "adrso269.wav",
+   "label": 27.0
+  },
+  {
+   "path": "adrso181.wav",
+   "label": 29.0
+  },
+  {
+   "path": "adrso308.wav",
+   "label": 30.0
+  },
+  {
+   "path": "adrso297.wav",
+   "label": 29.0
+  },
+  {
+   "path": "adrso247.wav",
+   "label": 24.0
+  },
+  {
+   "path": "adrso185.wav",
+   "label": 28.0
+  },
+  {
+   "path": "adrso246.wav",
+   "label": 14.0
+  },
+  {
+   "path": "adrso237.wav",
+   "label": 20.0
+  },
+  {
+   "path": "adrso046.wav",
+   "label": 15.0
+  },
+  {
+   "path": "adrso126.wav",
+   "label": 18.0
+  },
+  {
+   "path": "adrso141.wav",
+   "label": 20.0
+  },
+  {
+   "path": "adrso290.wav",
+   "label": 30.0
+  },
+  {
+   "path": "adrso033.wav",
+   "label": 3.0
+  },
+  {
+   "path": "adrso255.wav",
+   "label": 28.0
+  },
+  {
+   "path": "adrso188.wav",
+   "label": 23.0
+  },
+  {
+   "path": "adrso098.wav",
+   "label": 17.0
+  },
+  {
+   "path": "adrso309.wav",
+   "label": 30.0
+  },
+  {
+   "path": "adrso122.wav",
+   "label": 14.0
+  },
+  {
+   "path": "adrso149.wav",
+   "label": 29.0
+  },
+  {
+   "path": "adrso315.wav",
+   "label": 28.0
+  },
+  {
+   "path": "adrso072.wav",
+   "label": 19.0
+  },
+  {
+   "path": "adrso198.wav",
+   "label": 7.0
+  },
+  {
+   "path": "adrso088.wav",
+   "label": 20.0
+  },
+  {
+   "path": "adrso258.wav",
+   "label": 28.0
+  },
+  {
+   "path": "adrso302.wav",
+   "label": 29.0
+  },
+  {
+   "path": "adrso132.wav",
+   "label": 20.0
+  },
+  {
+   "path": "adrso254.wav",
+   "label": 25.0
+  },
+  {
+   "path": "adrso152.wav",
+   "label": 30.0
+  },
+  {
+   "path": "adrso049.wav",
+   "label": 18.0
+  },
+  {
+   "path": "adrso249.wav",
+   "label": 20.0
+  },
+  {
+   "path": "adrso031.wav",
+   "label": 26.0
+  },
+  {
+   "path": "adrso199.wav",
+   "label": 19.0
+  },
+  {
+   "path": "adrso209.wav",
+   "label": 17.0
+  },
+  {
+   "path": "adrso281.wav",
+   "label": 28.0
+  },
+  {
+   "path": "adrso260.wav",
+   "label": 27.0
+  },
+  {
+   "path": "adrso251.wav",
+   "label": 20.0
+  },
+  {
+   "path": "adrso160.wav",
+   "label": 30.0
+  },
+  {
+   "path": "adrso248.wav",
+   "label": 22.0
+  },
+  {
+   "path": "adrso231.wav",
+   "label": 17.0
+  },
+  {
+   "path": "adrso157.wav",
+   "label": 29.0
+  },
+  {
+   "path": "adrso217.wav",
+   "label": 20.0
+  },
+  {
+   "path": "adrso135.wav",
+   "label": 24.0
+  },
+  {
+   "path": "adrso171.wav",
+   "label": 27.0
+  },
+  {
+   "path": "adrso211.wav",
+   "label": 15.0
+  },
+  {
+   "path": "adrso317.wav",
+   "label": 29.0
+  },
+  {
+   "path": "adrso289.wav",
+   "label": 30.0
+  },
+  {
+   "path": "adrso233.wav",
+   "label": 21.0
+  },
+  {
+   "path": "adrso220.wav",
+   "label": 20.0
+  },
+  {
+   "path": "adrso189.wav",
+   "label": 19.0
+  },
+  {
+   "path": "adrso125.wav",
+   "label": 17.0
+  },
+  {
+   "path": "adrso044.wav",
+   "label": 25.0
+  },
+  {
+   "path": "adrso226.wav",
+   "label": 12.0
+  },
+  {
+   "path": "adrso032.wav",
+   "label": 25.0
+  },
+  {
+   "path": "adrso206.wav",
+   "label": 17.0
+  },
+  {
+   "path": "adrso078.wav",
+   "label": 22.0
+  },
+  {
+   "path": "adrso261.wav",
+   "label": 29.0
+  },
+  {
+   "path": "adrso294.wav",
+   "label": 29.0
+  },
+  {
+   "path": "adrso173.wav",
+   "label": 30.0
+  },
+  {
+   "path": "adrso066.wav",
+   "label": 16.0
+  },
+  {
+   "path": "adrso284.wav",
+   "label": 30.0
+  },
+  {
+   "path": "adrso283.wav",
+   "label": 30.0
+  },
+  {
+   "path": "adrso274.wav",
+   "label": 30.0
+  },
+  {
+   "path": "adrso039.wav",
+   "label": 10.0
+  },
+  {
+   "path": "adrso314.wav",
+   "label": 29.0
+  },
+  {
+   "path": "adrso029.wav",
+   "label": 8.0
+  },
+  {
+   "path": "adrso228.wav",
+   "label": 23.0
+  },
+  {
+   "path": "adrso113.wav",
+   "label": 20.0
+  },
+  {
+   "path": "adrso307.wav",
+   "label": 29.0
+  },
+  {
+   "path": "adrso275.wav",
+   "label": 28.0
+  },
+  {
+   "path": "adrso219.wav",
+   "label": 27.0
+  },
+  {
+   "path": "adrso310.wav",
+   "label": 28.0
+  },
+  {
+   "path": "adrso138.wav",
+   "label": 12.0
+  },
+  {
+   "path": "adrso177.wav",
+   "label": 28.0
+  },
+  {
+   "path": "adrso148.wav",
+   "label": 30.0
+  },
+  {
+   "path": "adrso180.wav",
+   "label": 29.0
+  },
+  {
+   "path": "adrso089.wav",
+   "label": 10.0
+  },
+  {
+   "path": "adrso265.wav",
+   "label": 30.0
+  },
+  {
+   "path": "adrso293.wav",
+   "label": 30.0
+  },
+  {
+   "path": "adrso276.wav",
+   "label": 29.0
+  },
+  {
+   "path": "adrso298.wav",
+   "label": 30.0
+  },
+  {
+   "path": "adrso168.wav",
+   "label": 30.0
+  },
+  {
+   "path": "adrso117.wav",
+   "label": 20.0
+  },
+  {
+   "path": "adrso056.wav",
+   "label": 28.0
+  },
+  {
+   "path": "adrso112.wav",
+   "label": 16.0
+  },
+  {
+   "path": "adrso187.wav",
+   "label": 11.0
+  },
+  {
+   "path": "adrso205.wav",
+   "label": 15.0
+  },
+  {
+   "path": "adrso024.wav",
+   "label": 20.0
+  },
+  {
+   "path": "adrso156.wav",
+   "label": 29.0
+  },
+  {
+   "path": "adrso036.wav",
+   "label": 10.0
+  },
+  {
+   "path": "adrso178.wav",
+   "label": 28.0
+  },
+  {
+   "path": "adrso194.wav",
+   "label": 21.0
+  },
+  {
+   "path": "adrso202.wav",
+   "label": 23.0
+  },
+  {
+   "path": "adrso142.wav",
+   "label": 13.0
+  },
+  {
+   "path": "adrso053.wav",
+   "label": 25.0
+  },
+  {
+   "path": "adrso064.wav",
+   "label": 13.0
+  },
+  {
+   "path": "adrso286.wav",
+   "label": 28.0
+  },
+  {
+   "path": "adrso074.wav",
+   "label": 24.0
+  },
+  {
+   "path": "adrso123.wav",
+   "label": 26.0
+  },
+  {
+   "path": "adrso277.wav",
+   "label": 29.0
+  },
+  {
+   "path": "adrso162.wav",
+   "label": 27.0
+  },
+  {
+   "path": "adrso063.wav",
+   "label": 13.0
+  },
+  {
+   "path": "adrso236.wav",
+   "label": 18.0
+  },
+  {
+   "path": "adrso165.wav",
+   "label": 30.0
+  },
+  {
+   "path": "adrso267.wav",
+   "label": 30.0
+  },
+  {
+   "path": "adrso197.wav",
+   "label": 20.0
+  },
+  {
+   "path": "adrso047.wav",
+   "label": 19.0
+  },
+  {
+   "path": "adrso214.wav",
+   "label": 18.0
+  },
+  {
+   "path": "adrso229.wav",
+   "label": 10.0
+  },
+  {
+   "path": "adrso140.wav",
+   "label": 12.0
+  },
+  {
+   "path": "adrso304.wav",
+   "label": 30.0
+  },
+  {
+   "path": "adrso027.wav",
+   "label": 18.0
+  },
+  {
+   "path": "adrso059.wav",
+   "label": 20.0
+  },
+  {
+   "path": "adrso244.wav",
+   "label": 11.0
+  },
+  {
+   "path": "adrso028.wav",
+   "label": 18.0
+  },
+  {
+   "path": "adrso170.wav",
+   "label": 29.0
+  },
+  {
+   "path": "adrso164.wav",
+   "label": 29.0
+  },
+  {
+   "path": "adrso054.wav",
+   "label": 12.0
+  }
+ ]
+}
